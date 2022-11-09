@@ -1,6 +1,6 @@
-# cvd_vue
+# XAI Survey
 
-> A Vue.js interface to CardiovascularDisease risk API
+> A Vue.js visual interface to browse the list of methods of the survey on XAI. 
 
 ## Build Setup
 
@@ -18,4 +18,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
