@@ -1,0 +1,78 @@
+[
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "LRP",
+            "long": "Layer-wise Relevance Propagation"
+        },
+        "reference": "Bach, S., Binder, A., Montavon, G., Klauschen, F., Mu ̈ller, K.-R., Samek, W.: On pixel-wise explanations for non-linear classifier decisions by layer- wise relevance propagation. PloS one 10(7), 0130140 (2015)",
+        "authors": "Bach, S., Binder, A., Montavon, G., Klauschen, F., Mu ̈ller, K.-R., Samek, W.",
+        "year": "2015",
+        "title": "On pixel-wise explanations for non-linear classifier decisions by layer- wise relevance propagation.",
+        "venue": "PloS one 10(7), 0130140",
+        "cover_image": "",
+        "link_to_code": "https://github.com/sebastian-lapuschkin/lrp_toolbox",
+        "description": ""
+    },
+    {
+        "type": "FI",
+        "data_type": "TAB",
+        "in_ph": "PH/IN",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "MAPLE",
+            "long": "Model agnostic supervised local explanations"
+        },
+        "reference": "",
+        "authors": "Plumb, G., Molitor, D., Talwalkar, A.S",
+        "year": "2018",
+        "title": "Model agnostic supervised local explanations",
+        "venue": "Advances in Neural Information Processing Systems",
+        "cover_image": "",
+        "link_to_code": "https://github.com/GDPlumb/MAPLE",
+        "description": ""
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "TREPAN",
+            "long": "Extracting tree-structured representations of trained networks"
+        },
+        "reference": "",
+        "authors": "Craven, M., Shavlik, J.W",
+        "year": "1996",
+        "title": "Extracting tree-structured representations of trained networks",
+        "venue": "Advances in Neural Information Processing Systems",
+        "cover_image": "",
+        "link_to_code": "https://github.com/abarthakur/trepan_python",
+        "description": ""
+    },
+    {
+        "type": "RB",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "G/L",
+        "agn_spec": "A",
+        "name": {
+            "short": "ANCHOR",
+            "long": "Anchors: High-precision model- agnostic explanations"
+        },
+        "reference": "",
+        "authors": "Ribeiro, M.T., Singh, S., Guestrin, C.",
+        "year": "2018",
+        "title": "Anchors: High-precision model- agnostic explanations",
+        "venue": "AAAI",
+        "cover_image": "",
+        "link_to_code": "https://github.com/marcotcr/anchor",
+        "description": ""
+    }
+]
