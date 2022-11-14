@@ -4,7 +4,7 @@
     class="mb-2" style="max-width: 20rem;"
     no-body
   >
-    <b-card-img v-if="data.cover_image" :src="data.cover_image"></b-card-img>
+    <b-card-img v-if="data.cover_image" :src="'./static/cover_images/'+data.cover_image"></b-card-img>
     <b-card-img v-else src='./static/cover_images/gialloXAI.png'></b-card-img>
     <b-card-body>
       
