@@ -1,0 +1,535 @@
+[
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "LRP",
+            "long": "Layer-wise Relevance Propagation"
+        },
+        "reference": "Bach, S., Binder, A., Montavon, G., Klauschen, F., Mu ̈ller, K.-R., Samek, W.: On pixel-wise explanations for non-linear classifier decisions by layer- wise relevance propagation. PloS one 10(7), 0130140 (2015)",
+        "authors": "Bach, S., Binder, A., Montavon, G., Klauschen, F., Mu ̈ller, K.-R., Samek, W.",
+        "year": "2015",
+        "title": "On pixel-wise explanations for non-linear classifier decisions by layer- wise relevance propagation.",
+        "venue": "PloS one 10(7), 0130140",
+        "cover_image": "",
+        "link_to_code": "https://github.com/sebastian-lapuschkin/lrp_toolbox",
+        "description": ""
+    },
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "LIME",
+            "long": "Local Interpretable Model-Agnostic Explanations"
+        },
+        "reference": "Ribeiro, M.T., Singh, S., Guestrin, C.: 'Why should i trust you?' explaining the predictions of any classifier. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 1135–1144 2016",
+        "authors": "Ribeiro, M.T., Singh, S., Guestrin, C.",
+        "year": "2016",
+        "title": "Why should i trust you?",
+        "venue": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+        "cover_image": "",
+        "link_to_code": "https://github.com/marcotcr/lime",
+        "description": "Local explanations generated exploiting a random synthetic generation and Ridge regressors a surrogate model."
+    },
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "G/L",
+        "agn_spec": "A",
+        "name": {
+            "short": "SHAP",
+            "long": "SHapley Additive exPlanations"
+        },
+        "reference": "Lundberg, S.M., Lee, S.-I.: A unified approach to interpreting model predictions. In: Advances in Neural Information Processing Systems, pp. 4765–4774 2017",
+        "authors": "Lundberg, S.M., Lee, S.-I.",
+        "year": "2017",
+        "title": "A unified approach to interpreting model predictions.",
+        "venue": "Advances in Neural Information Processing Systems",
+        "cover_image": "",
+        "link_to_code": "https://github.com/slundberg/shap",
+        "description": "Local and global explanations generated exploiting a game theory approach."
+    },
+    {
+        "type": "FI",
+        "data_type": "TAB",
+        "in_ph": "IN",
+        "glo_loc": "G/L",
+        "agn_spec": "A",
+        "name": {
+            "short": "EBM",
+            "long": "Explainable Boosting Machine"
+        },
+        "reference": "Nori, H., Jenkins, S., Koch, P., Caruana, R.: Interpretml: A uni- fied framework for machine learning interpretability. arXiv preprint arXiv:1909.09223 2019",
+        "authors": "Nori, H., Jenkins, S., Koch, P., Caruana, R.",
+        "year": "2019",
+        "title": "Interpretml: A uni- fied framework for machine learning interpretability.",
+        "venue": "arXiv preprint",
+        "cover_image": "",
+        "link_to_code": "https://interpret.ml/docs/ebm.html",
+        "description": "Interpretable by design model which outputs both local and global FI explanations."
+    },
+    {
+        "type": "FI",
+        "data_type": "TAB",
+        "in_ph": "IN",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "NAM",
+            "long": "Neural Additive Models"
+        },
+        "reference": "Agarwal, R., Frosst, N., Zhang, X., Caruana, R., Hinton, G.E.: Neural additive models: Interpretable machine learning with neural nets. arXiv preprint arXiv:2004.13912 2020",
+        "authors": "Agarwal, R., Frosst, N., Zhang, X., Caruana, R., Hinton, G.E.",
+        "year": "2020",
+        "title": "Neural additive models: Interpretable machine learning with neural nets.",
+        "venue": "arXiv preprint",
+        "cover_image": "",
+        "link_to_code": "https://github.com/nickfrosst/neural_additive_models",
+        "description": "Local explainer tailored for neural networks."
+    },
+    {
+        "type": "FI",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "CIU",
+            "long": "Contextual Importance and Utility"
+        },
+        "reference": "Anjomshoae, S., Kampik, T., Fr ̈amling, K.: Py-ciu: A python library for explaining machine learning predictions using contextual importance and utility. In: IJCAI-PRICAI 2020 Workshop on Explainable Artificial Intelligence (XAI) (2020)",
+        "authors": "Anjomshoae, S., Kampik, T., Fr ̈amling, K.",
+        "year": "2020",
+        "title": "Py-ciu: A python library for explaining machine learning predictions using contextual importance and utility.",
+        "venue": "IJCAI-PRICAI 2020 Workshop on Explainable Artificial Intelligence (XAI)",
+        "cover_image": "",
+        "link_to_code": "https://github.com/TimKam/py-ciu",
+        "description": "Local agnostic explainer tailored for taking into account the context of the features."
+    },
+    {
+        "type": "FI",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "CoFrNets",
+            "long": "Continued Fractions Nets"
+        },
+        "reference": "Zhou, Y., Hooker, G.: Interpreting models via single tree approximation. arXiv preprint arXiv:1610.09036 (2016)",
+        "authors": "Zhou, Y., Hooker, G.",
+        "year": "2016",
+        "title": "Interpreting models via single tree approximation.",
+        "venue": "arXiv preprint",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "Local explainer tailored for neural networks."
+    },
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "G/L",
+        "agn_spec": "A",
+        "name": {
+            "short": "DALEX",
+            "long": "DALEX"
+        },
+        "reference": "Biecek, P., Burzykowski, T.: Explanatory Model Analysis. Chapman and Hall/CRC, New York, (2021)",
+        "authors": "Biecek, P., Burzykowski, T.",
+        "year": "2021",
+        "title": " Explanatory Model Analysis.",
+        "venue": "Chapman and Hall/CRC",
+        "cover_image": "",
+        "link_to_code": "https://github.com/ModelOriented/DALEX",
+        "description": "Local and agnostic explainer which exploits variable attribution."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "MSFT",
+            "long": "MSFT"
+        },
+        "reference": "Chipman, H., George, E., McCulloh, R.: Making sense of a forest of trees. Computing Science and Statistics (1998)",
+        "authors": "Chipman, H., George, E., McCulloh, R.",
+        "year": "1998",
+        "title": "Making sense of a forest of trees.",
+        "venue": "Computing Science and Statistics",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "Global, post-hoc, model-specific explainer for random forests that returns a decision trees."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "CMM",
+            "long": "Combined Multiple Model procedure"
+        },
+        "reference": "Domingos, P.: Knowledge discovery via multiple models. Intelligent Data Analysis (1998)",
+        "authors": "Domingos, P.",
+        "year": "1998",
+        "title": "Knowledge discovery via multiple models.",
+        "venue": "Intelligent Data Analysis",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "Global, post-hoc, model-specific explainer for models based on trees."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "DecText",
+            "long": "Combined Multiple Model procedure"
+        },
+        "reference": "Boz, O.: Extracting decision trees from trained neural networks. In: Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (2002)",
+        "authors": "Boz, O.",
+        "year": "2002",
+        "title": "Extracting decision trees from trained neural networks.",
+        "venue": "Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "Global, post-hoc, model-specific explainer for neural networks, tailored to maximize model fidelity."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "IN",
+        "glo_loc": "G/L",
+        "agn_spec": "A",
+        "name": {
+            "short": "Scalable-Brl",
+            "long": "Combined Multiple Model procedure"
+        },
+        "reference": "Yang, H., Rudin, C., Seltzer, M.: Scalable bayesian rule lists. In: International Conference on Machine Learning, pp. 3921–3930 (2017). PMLR",
+        "authors": "Yang, H., Rudin, C., Seltzer, M.",
+        "year": "2017",
+        "title": "Scalable bayesian rule lists.",
+        "venue": "International Conference on Machine Learning",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "Interpretable rule-based model which exploits a Bayesian hierarchical model."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "LORE",
+            "long": "LOcal Rule-based Explainer"
+        },
+        "reference": "Guidotti, R., Monreale, A., Giannotti, F., Pedreschi, D., Ruggieri, S., Turini, F.: Factual and counterfactual explanations for black box decision making. IEEE Intell. Syst. 34(6), 14–23 (2019)",
+        "authors": "Guidotti, R., Monreale, A., Giannotti, F., Pedreschi, D., Ruggieri, S., Turini, F.",
+        "year": "2019",
+        "title": "Factual and counterfactual explanations for black box decision making.",
+        "venue": "IEEE Intell. Syst.",
+        "cover_image": "",
+        "link_to_code": "https://github.com/riccotti/LORE",
+        "description": "Local and agnostic model which outputs rules and counterfactual rules."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "G/L",
+        "agn_spec": "A",
+        "name": {
+            "short": "RuleMatrix",
+            "long": "LOcal Rule-based Explainer"
+        },
+        "reference": "Ming, Y., Qu, H., Bertini, E.: Rulematrix: Visualizing and understanding classifiers with rules. IEEE transactions on visualization and computer graphics 25(1), 342–352 (2018)",
+        "authors": "Ming, Y., Qu, H., Bertini, E.",
+        "year": "2018",
+        "title": "Rulematrix: Visualizing and understanding classifiers with rules.",
+        "venue": "IEEE transactions on visualization and computer graphics",
+        "cover_image": "",
+        "link_to_code": "https://github.com/rulematrix/rule-matrix-py",
+        "description": "Local and global agnostic model which outputs rules."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "G/L",
+        "agn_spec": "A",
+        "name": {
+            "short": "GlocalX",
+            "long": "LOcal Rule-based Explainer"
+        },
+        "reference": "Setzu, M., Guidotti, R., Monreale, A., Turini, F.: Global explanations with local scoring. In: Joint European Conference on Machine Learning and Knowledge Discovery in Databases, pp. 159–171 (2019). Springer",
+        "authors": "Setzu, M., Guidotti, R., Monreale, A., Turini, F.",
+        "year": "2019",
+        "title": "Global explanations with local scoring.",
+        "venue": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
+        "cover_image": "",
+        "link_to_code": "https://github.com/msetzu/glocalx",
+        "description": "Global post-hox explainers which merges local explanations to provide a gloabl explanation."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "G/L",
+        "agn_spec": "A",
+        "name": {
+            "short": "SkopeRules",
+            "long": "SkopeRules"
+        },
+        "reference": "Friedman, J., Popescu, B.E.: Predictive learning via rule ensembles. The Annals of Applied Statistics 2, 916–954 (2008)",
+        "authors": "Friedman, J., Popescu, B.E.",
+        "year": "2008",
+        "title": "Predictive learning via rule ensembles.",
+        "venue": "The Annals of Applied Statistics",
+        "cover_image": "",
+        "link_to_code": "https://github.com/scikit-learn-contrib/skope-rules",
+        "description": "SkopeRules defines an ensemble method and extracts rules from it."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "STA",
+            "long": "Single Tree Approximation"
+        },
+        "reference": "Zhou, Y., Hooker, G.: Interpreting models via single tree approximation. arXiv preprint arXiv:1610.09036 (2016)",
+        "authors": "Zhou, Y., Hooker, G.",
+        "year": "2016",
+        "title": "Interpreting models via single tree approximation.",
+        "venue": "arXiv preprint",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "Global, post-hoc, model-specific explainer for random forests."
+    },
+    
+    {
+        "type": "FI",
+        "data_type": "TAB",
+        "in_ph": "PH/IN",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "MAPLE",
+            "long": "Model agnostic supervised local explanations"
+        },
+        "reference": "Plumb, G., Molitor, D., Talwalkar, A.S.: Model agnostic supervised local explanations. In: Advances in Neural Information Processing Systems (2018)",
+        "authors": "Plumb, G., Molitor, D., Talwalkar, A.S",
+        "year": "2018",
+        "title": "Model agnostic supervised local explanations",
+        "venue": "Advances in Neural Information Processing Systems",
+        "cover_image": "",
+        "link_to_code": "https://github.com/GDPlumb/MAPLE",
+        "description": "MAPLE is a local post-hoc model-agnostic explainer that can also be used as a transparent model due to its internal structure."
+    },
+    {
+        "type": "RB",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "TREPAN",
+            "long": "Extracting tree-structured representations of trained networks"
+        },
+        "reference": "",
+        "authors": "Craven, M., Shavlik, J.W",
+        "year": "1996",
+        "title": "Extracting tree-structured representations of trained networks",
+        "venue": "Advances in Neural Information Processing Systems",
+        "cover_image": "",
+        "link_to_code": "https://github.com/abarthakur/trepan_python",
+        "description": ""
+    },
+    {
+        "type": "RB",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "G/L",
+        "agn_spec": "A",
+        "name": {
+            "short": "ANCHOR",
+            "long": "Anchors: High-precision model- agnostic explanations"
+        },
+        "reference": "",
+        "authors": "Ribeiro, M.T., Singh, S., Guestrin, C.",
+        "year": "2018",
+        "title": "Anchors: High-precision model- agnostic explanations",
+        "venue": "AAAI",
+        "cover_image": "",
+        "link_to_code": "https://github.com/marcotcr/anchor",
+        "description": ""
+    },
+    {
+        "type": "PR",
+        "data_type": "TAB",
+        "in_ph": "IN",
+        "glo_loc": "G/L",
+        "agn_spec": "S",
+        "name": {
+            "short": "PS",
+            "long": "Prototype Selection"
+        },
+        "reference": "Bien, J., Tibshirani, R.: Prototype selection for interpretable classification. The Annals of Applied Statistics, 2403–2424 (2011)",
+        "authors": "Bien, J., Tibshirani, R.",
+        "year": "2011",
+        "title": "Prototype selection for interpretable classification.",
+        "venue": "The Annals of Applied Statistics",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "It exploits a cover optimization process to find the set that best represents the data under analysis."
+    },
+    {
+        "type": "PR",
+        "data_type": "ANY",
+        "in_ph": "IN",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "MMD-critic",
+            "long": "Prototype Selection"
+        },
+        "reference": "Kim, B., Khanna, R., Koyejo, O.O.: Examples are not enough, learn to criticize! Criticism for interpretability. In: Lee, D., Sugiyama, M., Luxburg, U., Guyon, I., Garnett, R. (eds.) Advances in Neural Information Processing Systems, vol. 29. Curran Associates, Inc., (2016). https://proceedings.neurips.cc/paper/2016/file/5680522b8e2bb01943234bce7bf84534- Paper.pdf",
+        "authors": "Kim, B., Khanna, R., Koyejo, O.O.",
+        "year": "2016",
+        "title": "Examples are not enough, learn to criticize! Criticism for interpretability.",
+        "venue": "Advances in Neural Information Processing Systems",
+        "cover_image": "",
+        "link_to_code": "https://github.com/BeenKim/MMD-critic",
+        "description": "It extracts from the data both prototypes and criticisms, which are representations of the dataset far from the common behaviour."
+    },
+    {
+        "type": "PR",
+        "data_type": "ANY",
+        "in_ph": "IN",
+        "glo_loc": "G",
+        "agn_spec": "A",
+        "name": {
+            "short": "ProtoDash",
+            "long": "ProtoDash"
+        },
+        "reference": "Gurumoorthy, K.S., Dhurandhar, A., Cecchi, G., Aggarwal, C.: Efficient data representation by selecting prototypes with importance weights. In: 2019 IEEE International Conference on Data Mining (ICDM), pp. 260–269 (2019). IEEE",
+        "authors": "Gurumoorthy, K.S., Dhurandhar, A., Cecchi, G., Aggarwal, C.",
+        "year": "2019",
+        "title": "Efficient data representation by selecting prototypes with importance weights.",
+        "venue": "IEEE International Conference on Data Mining (ICDM)",
+        "cover_image": "",
+        "link_to_code": "https://github.com/Trusted-AI/AIX360",
+        "description": "Global explainer which outputs prototypes with a weight associated."
+    },
+    {
+        "type": "CF",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "CEM",
+            "long": "Contrastive Explanations Method"
+        },
+        "reference": "Dhurandhar, A., Chen, P.-Y., Luss, R., Tu, C.-C., Ting, P., Shanmugam, K., Das, P.: Explanations based on the missing: Towards contrastive explanations with pertinent negatives. In: Advances in Neural Information Processing Systems (2018)",
+        "authors": "Dhurandhar, A., Chen, P.-Y., Luss, R., Tu, C.-C., Ting, P., Shanmugam, K., Das, P.",
+        "year": "2018",
+        "title": "Explanations based on the missing: Towards contrastive explanations with pertinent negatives.",
+        "venue": "Advances in Neural Information Processing Systems",
+        "cover_image": "",
+        "link_to_code": "https://github.com/IBM/Contrastive-Explanation-Method",
+        "description": "It outputs counterfactulas which are minimal and necessary."
+    },
+    {
+        "type": "CF",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "CFX",
+            "long": "CFX"
+        },
+        "reference": "Albini, E., Rago, A., Baroni, P., Toni, F.: Relation-based counterfac- tual explanations for bayesian network classifiers. In: IJCAI, pp. 451–457 (2020)",
+        "authors": "Albini, E., Rago, A., Baroni, P., Toni, F.",
+        "year": "2020",
+        "title": "Relation-based counterfac- tual explanations for bayesian network classifiers.",
+        "venue": "IJCAI",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "It is a model-specific post-hoc explainer for Bayesian Network Classifiers"
+    },
+    {
+        "type": "CF",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "DICE",
+            "long": "Diverse Counterfactual Explanations"
+        },
+        "reference": "Mothilal, R.K., Sharma, A., Tan, C.: Explaining machine learning classifiers through diverse counterfactual explanations. In: Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (2020)",
+        "authors": "Mothilal, R.K., Sharma, A., Tan, C.",
+        "year": "2020",
+        "title": "Explaining machine learning classfiers through diverse counterfactual explanations.",
+        "venue": "Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency",
+        "cover_image": "",
+        "link_to_code": "https://github.com/interpretml/DiCE",
+        "description": "It is a model-agnostic post-hoc explainer which outputs counterfactuals that are plausible and diverse."
+    },
+    {
+        "type": "CF",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "C-CHVAE",
+            "long": ""
+        },
+        "reference": "Pawelczyk, M., Broelemann, K., Kasneci, G.: Learning model-agnostic counterfactual explanations for tabular data. In: Proceedings of The Web Conference 2020. WWW ’20 (2020)",
+        "authors": "Pawelczyk, M., Broelemann, K., Kasneci, G.",
+        "year": "2020",
+        "title": "Learning model-agnostic counterfactual explanations for tabular data.",
+        "venue": "Proceedings of The Web Conference 2020",
+        "cover_image": "",
+        "link_to_code": "https://github.com/MartinPawel/c-chvae",
+        "description": "It is a model-agnostic post-hoc explainer which outputs counterfactuals that are plausible and diverse."
+    },
+    {
+        "type": "CF",
+        "data_type": "TAB",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "FACE",
+            "long": "Feasible and Actionable counterfactual explanations"
+        },
+        "reference": "Poyiadzi, R., Sokol, K., Santos-Rodriguez, R., De Bie, T., Flach, P.: Face: feasible and actionable counterfactual explanations. In: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (2020)",
+        "authors": "Poyiadzi, R., Sokol, K., Santos-Rodriguez, R., De Bie, T., Flach, P.",
+        "year": "2020",
+        "title": "Face: feasible and actionable counterfactual explanations.",
+        "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+        "cover_image": "",
+        "link_to_code": "https://github.com/MartinPawel/c-chvae",
+        "description": "It is a model-agnostic post-hoc explainer which outputs counterfactuals that are feasible and actionable."
+    }
+]
