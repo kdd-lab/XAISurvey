@@ -531,5 +531,560 @@
         "cover_image": "",
         "link_to_code": "https://github.com/MartinPawel/c-chvae",
         "description": "It is a model-agnostic post-hoc explainer which outputs counterfactuals that are feasible and actionable."
+    },
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "epsilon-LRP",
+            "long": "epsilon Layer-wise Relevance Propagation"
+        },
+        "reference": "",
+        "authors": "Bach, S., Binder, A., Montavon, G., Klauschen, F., Mu ̈ller, K.-R., Samek, W",
+        "year": "2015",
+        "title": "On pixel-wise explanations for non-linear classifier decisions by layer-wise relevance propagation",
+        "venue": "plos journal",
+        "cover_image": "",
+        "link_to_code": "https://github.com/marcoancona/DeepExplain",
+        "description": "Layer-wise Relevance Propagation was introduced for feed-forward neural networks and then adapted to different type of models. It decomposes the prediction y backward using local redistribution rules until it assigns a relevance score R to each pixel value."
+    },
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "LIME",
+            "long": "Local Interpretable Model-agnostic Explanations"
+        },
+        "reference": "",
+        "authors": "Ribeiro, M.T., Singh, S., Guestrin, C.:",
+        "year": "2016",
+        "title": "Why should i trust you? explaining the predictions of any classifier",
+        "venue": "KDD",
+        "cover_image": "",
+        "link_to_code": "https://github.com/marcotcr/lime",
+        "description": "Intuitively, an explanation is a local linear approximation of the model's behaviour. While the model may be very complex globally, it is easier to approximate it around the vicinity of a particular instance. While treating the model as a black box, we perturb the instance we want to explain and learn a sparse linear model around it, as an explanation."
+    },
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "SHAP",
+            "long": "SHapley Additive exPlanations"
+        },
+        "reference": "",
+        "authors": "Lundberg, S.M., Lee, S.-I",
+        "year": "2016",
+        "title": "A unified approach to interpreting model predictions",
+        "venue": "NeurIPS",
+        "cover_image": "",
+        "link_to_code": "https://github.com/slundberg/shap",
+        "description": "SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions."
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "Grad-CAM",
+            "long": "Gradient-weighted Class Activation Mapping"
+        },
+        "reference": "",
+        "authors": "Selvaraju, R.R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., Batra, D.",
+        "year": "2017",
+        "title": "Grad-cam: Visual explanations from deep networks via gradient- based localization",
+        "venue": "IEEE CVPR",
+        "cover_image": "",
+        "link_to_code": "https://github.com/adityac94/Grad_CAM_plus_plus",
+        "description": "(Grad-CAM), uses the gradients of any target concept (say ‘dog’ in a classification network or a sequence of words in captioning network) flowing into the final convolutional layer to produce a coarse localization map highlighting the important regions in the image for predicting the concept"
+    },
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "DeepLIFT",
+            "long": "Deep Learning Important FeaTures"
+        },
+        "reference": "",
+        "authors": "Shrikumar, A., Greenside, P., Kundaje, A",
+        "year": "2017",
+        "title": "Learning important features through propagating activation differences",
+        "venue": "ICML",
+        "cover_image": "",
+        "link_to_code": "https://github.com/marcoancona/DeepExplain",
+        "description": "DeepLIFT recognizes that what we care about is not the gradient, which describes how y changes as x changes at the point x, but the slope, which describes how y changes as x differs from the baseline."
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "Smoothgrad",
+            "long": "Smoothed Gradients saliency maps"
+        },
+        "reference": "",
+        "authors": "Smilkov, D., Thorat, N., Kim, B., Vi ́egas, F., Wattenberg, M.",
+        "year": "2017",
+        "title": "Smooth-grad: removing noise by adding noise.",
+        "venue": "",
+        "cover_image": "",
+        "link_to_code": "https://github.com/PAIR-code/saliency",
+        "description": "Usually, a SM is created directly on the gradient of the black-box output w.r.t. the input. Smoothgrad augments this process by smoothing the gradients with a Gaussian noise kernel. More in detail, it takes the image x, applies Gaussian noise to it, and retrieves the saliency map for every perturbed image, using the gradient. The final saliency map is an average of these perturbed SMs."
+    },
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "INTGRAD",
+            "long": "Integrated Gradients"
+        },
+        "reference": "",
+        "authors": "Sundararajan, M., Taly, A., Yan, Q.",
+        "year": "2017",
+        "title": "Axiomatic attribution for deep network",
+        "venue": "ICML",
+        "cover_image": "",
+        "link_to_code": "https://captum.ai/docs/extension/integrated_gradients",
+        "description": "Integrated gradients is a simple, yet powerful axiomatic attribution method that uses gradients of the model to produce feature importance."
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "GradCAM++",
+            "long": "Gradient-weighted Class Activation Mapping Plus Plus"
+        },
+        "reference": "",
+        "authors": "Chattopadhay, A., Sarkar, A., Howlader, P., Balasubramanian, V.N.",
+        "year": "2018",
+        "title": "Grad-cam++: Generalized gradient-based visual explanations for deep convolutional network",
+        "venue": "WACV",
+        "cover_image": "",
+        "link_to_code": "https://github.com/adityac94/Grad_CAM_plus_plus",
+        "description": "An improved version of Grad-CAM where also higher order derivates are considered when creating the explanation."
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "RISE",
+            "long": "Randomized Input Sampling for Explanation"
+        },
+        "reference": "",
+        "authors": "Petsiuk, V., Das, A., Saenko, K",
+        "year": "2018",
+        "title": "Rise: Randomized input sampling for explanation of black-box models",
+        "venue": "BMVC",
+        "cover_image": "",
+        "link_to_code": "https://github.com/eclique/RISE",
+        "description": "To generate a saliency map for model's prediction, RISE queries black-box model on multiple randomly masked versions of input. After all the queries are done we average all the masks with respect to their scores to produce the final saliency map. The idea behind this is that whenever a mask preserves important parts of the image it gets higher score, and consequently has a higher weight in the sum."
+    },
+    {
+        "type": "FI",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "ANCHOR",
+            "long": "Anchor"
+        },
+        "reference": "",
+        "authors": "Ribeiro, M.T., Singh, S., Guestrin, C",
+        "year": "2018",
+        "title": "Anchors: High-precision model-agnostic explanations.",
+        "venue": "AAAI",
+        "cover_image": "",
+        "link_to_code": "https://github.com/marcotcr/anchor",
+        "description": "An anchor explanation is a rule that sufficiently “anchors” the prediction locally such that changes to the rest of the feature values of the instance do not matter. In other words, for instances on which the anchor holds, the prediction is (almost) always the same. The anchor method is able to explain any black box classifier, with two or more classes. All it is required is that the classifier implements a function that takes in raw text or a numpy array and outputs a prediction (integer)."
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "EXT-PERT",
+            "long": "Extreme Perturbation"
+        },
+        "reference": "",
+        "authors": "Fong, R., Patrick, M., Vedaldi, A",
+        "year": "2019",
+        "title": "Understanding deep networks via extremal perturbations and smooth masks.",
+        "venue": "CVPR",
+        "cover_image": "",
+        "link_to_code": "https://github.com/facebookresearch/TorchRay",
+        "description": "Extremal perturbations are regions of an image that, for a given area (boxed), maximally affect the activation of a certain neuron in a neural network (i.e., “mousetrap” class score). As the area of the perturbation is increased, the method reveals more of the image, in order of decreasing importance"
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "XRAI",
+            "long": "Xrai: Better attributions through regions"
+        },
+        "reference": "",
+        "authors": "Kapishnikov, A., Bolukbasi, T., Viegas, F., Terry, M.",
+        "year": "2019",
+        "title": "Xrai: Better attributions through regions.",
+        "venue": "ICCV",
+        "cover_image": "",
+        "link_to_code": "https://github.com/PAIR-code/saliency",
+        "description": "XRAI add segmentation to INTGRAD explanations. XRAI first over-segments the image, then it iteratively tests each region's importance, fusing smaller regions into larger segments based on attribution scores obtained using INTGRAD."
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "CXPlain",
+            "long": "Causal eXPlanation"
+        },
+        "reference": "",
+        "authors": "Schwab, P., Karlen, W.",
+        "year": "2019",
+        "title": "Cxplain: Causal explanations for model interpretation under uncertainty",
+        "venue": "NeurIPS",
+        "cover_image": "",
+        "link_to_code": "https://github.com/d909b/cxplain",
+        "description": "Causal Explanations (CXPlain) is a method for explaining the decisions of any machine-learning model. CXPlain uses explanation models trained with a causal objective to learn to explain machine-learning models, and to quantify the uncertainty of its explanations."
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "Eigen-CAM",
+            "long": "principal components based Class Activation Maps"
+        },
+        "reference": "",
+        "authors": "Muhammad, M.B., Yeasin, M.",
+        "year": "2020",
+        "title": "Eigen-cam: Class activation map using principal components",
+        "venue": "IJCNN",
+        "cover_image": "",
+        "link_to_code": "https://github.com/shyhyawJou/Eigen-CAM-Tensorflow",
+        "description": "Eigen-CAM is an approach that provides a simpler and intuitive way of generating CAM. Eigen-CAM computes and visualizes the principle components of the learned features/representations from the convolutional layers to generate saliency maps."
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "Ablation-CAM",
+            "long": "Ablation-based Class Activation Mapping"
+        },
+        "reference": "",
+        "authors": "Ramaswamy, Harish Guruprasad.",
+        "year": "2020",
+        "title": "Ablation-cam: Visual explanations for deep convolutional network via gradient-free localization",
+        "venue": "IEEE/CVF",
+        "cover_image": "",
+        "link_to_code": "https://github.com/shyhyawJou/Ablation-CAM-Tensorflow",
+        "description": "Ablation-based Class Activation Mapping (Ablation CAM) uses ablation analysis to determine the importance (weights) of individual feature map units w.r.t. class. Further, this is used to produce a coarse localization map highlighting the important regions in the image for predicting the concept."
+    },
+    {
+        "type": "FI",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "S",
+        "name": {
+            "short": "Score-CAM",
+            "long": "Score-Weighted Class Activation Mapping"
+        },
+        "reference": "",
+        "authors": "Wang, H., Wang, Z., Du, M., Yang, F., Zhang, Z., Ding, S., Mardziel, P., Hu, X.",
+        "year": "2020",
+        "title": "Score-cam: Score-weighted visual explanations for convolu- tional neural networks",
+        "venue": "IEEE/CVF",
+        "cover_image": "",
+        "link_to_code": "https://github.com/haofanwang/Score-CAM",
+        "description": "Unlike others class activation mapping based approaches, Score-CAM gets rid of the dependence on gradients by obtaining the weight of each activation map through its forward passing score on target class. The final result is obtained by a linear combination of weights and activation maps."
+    },
+    {
+        "type": "CA",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "TCAV",
+            "long": "Testing with Concept Attribution Vectors"
+        },
+        "reference": "",
+        "authors": "Kim, B., Wattenberg, M., Gilmer, J., Cai, C., Wexler, J., Viegas, F.,",
+        "year": "2018",
+        "title": "Interpretability beyond feature attribution: Quantitative testing with concept activation vectors",
+        "venue": "ICML",
+        "cover_image": "",
+        "link_to_code": "https://github.com/tensorflow/tcav",
+        "description": "Testing with Concept Activation Vectors (TCAV) is a new interpretability method to understand what signals your neural networks models uses for prediction. Typical interpretability methods show importance weights in each input feature (e.g, pixel). TCAV instead shows importance of high level concepts (e.g., color, gender, race) for a prediction class."
+    },
+    {
+        "type": "CA",
+        "data_type": "IMG",
+        "in_ph": "IN",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "ICNN",
+            "long": "Interpretable Convolutional Neural Networks"
+        },
+        "reference": "",
+        "authors": "Zhang, Q., Wu, Y.N., Zhu, S.-C",
+        "year": "2018",
+        "title": "Interpretable convolutional neural networks.",
+        "venue": "CVPR",
+        "cover_image": "",
+        "link_to_code": "https://github.com/ada-shen/ICNN",
+        "description": "Retain is a method to modify traditional convolutional neural networks (CNNs) into interpretable CNNs, in order to clarify knowledge representations in high convolutional layers of CNNs. In an interpretable CNN, each filter in a high conv-layer represents a certain object part. We do not need any annotations of object parts or textures to supervise the learning process. Instead, the interpretable CNN automatically assigns each filter in a high conv-layer with an object part during the learning process."
+    },
+
+    {
+        "type": "CA",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "G",
+        "agn_spec": "A",
+        "name": {
+            "short": "ACE",
+            "long": "Automatic Concept-based Explanations."
+        },
+        "reference": "",
+        "authors": "Ghorbani, A., Wexler, J., Zou, J.Y., Kim, B.",
+        "year": "2019",
+        "title": "Towards automatic concept-based explanations.",
+        "venue": "NeurIPS",
+        "cover_image": "",
+        "link_to_code": "https://github.com/amiratag/ACE",
+        "description": "ACE is a modification of TCAV in which concepts are automatically discovered using segmentation and clustering instead of using a set of pre-selected images."
+    },
+
+
+    {
+        "type": "CA",
+        "data_type": "IMG",
+        "in_ph": "IN",
+        "glo_loc": "G",
+        "agn_spec": "A",
+        "name": {
+            "short": "CaCE",
+            "long": "Causal Concept Effect"
+        },
+        "reference": "",
+        "authors": "Goyal, Y., Feder, A., Shalit, U., Kim, B.",
+        "year": "2019",
+        "title": "Explaining classifiers with causal concept effect",
+        "venue": "",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "Causal Concept Effect is another variation of TCAV that looks at the causal effect of the presence or absence of high-level concepts on the black-box prediction."
+    },
+
+    {
+        "type": "CA",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "G",
+        "agn_spec": "A",
+        "name": {
+            "short": "ConceptSHAP",
+            "long": "Concept-based SHAPley values"
+        },
+        "reference": "",
+        "authors": "Yeh, C.-K., Kim, B., Arik, S., Li, C.-L., Pfister, T., Ravikumar, P.",
+        "year": "2020",
+        "title": "On completeness-aware concept-based explanations in deep neural networks.",
+        "venue": "NeurIPS",
+        "cover_image": "",
+        "link_to_code": "https://github.com/chihkuanyeh/concept_exp",
+        "description": "ConceptSHAP is an evolution of SHAP which tries to define an importance score for each concept discovered."
+    },
+    {
+        "type": "CA",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "PACE",
+            "long": "Posthoc Architecture-agnostic Concept Extractor"
+        },
+        "reference": "",
+        "authors": "Kamakshi, V., Gupta, U., Krishnan, N.C.",
+        "year": "2021",
+        "title": "Pace: Posthoc architecture-agnostic concept extractor for explaining cnns",
+        "venue": "IJCNN",
+        "cover_image": "",
+        "link_to_code": "",
+        "description": "PACE automatically extracts smaller sub-regions of the image called concepts relevant to the black-box prediction. It tightly integrates the faithfulness of the explanatory framework to the black-box model."
+    },
+    {
+        "type": "CF",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "L2X",
+            "long": "Learning to Explain"
+        },
+        "reference": "",
+        "authors": "Chen, J., Song, L., Wainwright, M.J., Jordan, M.I.",
+        "year": "2018",
+        "title": "Learning to Explain: An Information-Theoretic Perspective on Model Interpretation",
+        "venue": "ICML",
+        "cover_image": "",
+        "link_to_code": "https://github.com/Jianbo-Lab/L2X",
+        "description": "L2X is based on learning a function for extracting a subset of the most informative features for each given sample using Mutual Information."
+    },
+    {
+        "type": "CF",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "CEM",
+            "long": "Contrastive Explanation Method"
+        },
+        "reference": "",
+        "authors": "Dhurandhar, A., Chen, P.-Y., Luss, R., Tu, C.-C., Ting, P., Shanmugam, K., Das, P.",
+        "year": "2018",
+        "title": "Explanations based on the missing: Towards contrastive explanations with pertinent negatives",
+        "venue": "NeurIPS",
+        "cover_image": "",
+        "link_to_code": "https://docs.seldon.io/projects/alibi/en/stable/methods/CEM.html",
+        "description": "CEM generates instance based local black box explanations for classification models in terms of Pertinent Positives (PP) and Pertinent Negatives (PN). For a PP, the method finds the features that should be minimally and sufficiently present (e.g. important pixels in an image) to predict the same class as on the original instance. PN’s on the other hand identify what features should be minimally and necessarily absent from the instance to be explained in order to maintain the original prediction class."
+    },
+    {
+        "type": "CF",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "CFProto",
+            "long": "CounterFactuals guided by Prototypes"
+        },
+        "reference": "",
+        "authors": "Van Looveren, A., Klaise, J",
+        "year": "2019",
+        "title": "Interpretable counterfactual explanations guided by prototypes",
+        "venue": "ECML/PKDD",
+        "cover_image": "",
+        "link_to_code": "https://docs.seldon.io/projects/alibi/en/stable/methods/CFProto.html",
+        "description": "CFProto proposes a fast, model agnostic method to find interpretable counterfactual explanations for classifier predictions by using class prototypes."
+    },
+    {
+        "type": "CF",
+        "data_type": "IMG",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "ABELE",
+            "long": "Adversarial Black box Explainer generating Latent Exemplars"
+        },
+        "reference": "",
+        "authors": "Guidotti, R., Monreale, A., Matwin, S., Pedreschi, D",
+        "year": "2020",
+        "title": "Explaining image classifiers generating exemplars and counter-exemplars from latent representations.",
+        "venue": "AAAI",
+        "cover_image": "",
+        "link_to_code": "https://github.com/riccotti/ABELE",
+        "description": "ABELE is a local, model-agnostic explanation method able to overcome the existing limitations of the local approaches by exploiting the latent feature space, learned through an adversarial autoencoder, for the neighborhood generation process. Given an image classified by a given black box model, ABELE provides an explanation for the reasons of the proposed classification. The explanation consists of two parts: (i) a set of exemplars and counter-exemplars images illustrating, respectively, instances classified with the same label and with a different label than the instance to explain, which may be visually analyzed to understand the reasons for the classification, and (ii) a saliency map highlighting the areas of the image to explain that contribute to its classification, and areas of the image that push it towards another label."
+    },
+    {
+        "type": "PR",
+        "data_type": "ANY",
+        "in_ph": "IN",
+        "glo_loc": "G",
+        "agn_spec": "A",
+        "name": {
+            "short": "MMD-critic",
+            "long": "statistical model criticisms using the Maximum Mean Discrepancy"
+        },
+        "reference": "",
+        "authors": "Kim, B., Khanna, R., Koyejo, O.O.",
+        "year": "2016",
+        "title": "Examples are not enough, learn to criticize! criticism for interpretability",
+        "venue": "NeurIPS",
+        "cover_image": "",
+        "link_to_code": "https://github.com/BeenKim/MMD-critic",
+        "description": "Motivated by the Bayesian model criticism framework, MMD-critic efficiently learns prototypes and criticism, designed to aid human interpretability."
+    },
+    {
+        "type": "PR",
+        "data_type": "ANY",
+        "in_ph": "PH",
+        "glo_loc": "L",
+        "agn_spec": "A",
+        "name": {
+            "short": "Influence Functions",
+            "long": "Influence Functions"
+        },
+        "reference": "",
+        "authors": "Koh, P.W., Liang, P",
+        "year": "2017",
+        "title": "Understanding black-box predictions via influence functions.",
+        "venue": "ICML",
+        "cover_image": "",
+        "link_to_code": "https://github.com/kohpangwei/influence-release",
+        "description": "Influence functions are a classic technique from robust statistics to trace a model's prediction through the learning algorithm and back to its training data, thereby identifying training points most responsible for a given prediction."
+    },
+    {
+        "type": "PR",
+        "data_type": "IMG",
+        "in_ph": "IN",
+        "glo_loc": "G",
+        "agn_spec": "S",
+        "name": {
+            "short": "ProtoPNet",
+            "long": "Prototypical Part Network"
+        },
+        "reference": "",
+        "authors": "Chen, C., Li, O., Tao, D., Barnett, A., Rudin, C., Su, J.K.",
+        "year": "2019",
+        "title": "This looks like that: deep learning for interpretable image recognition",
+        "venue": "NeurIPS",
+        "cover_image": "",
+        "link_to_code": "https://github.com/cfchen-duke/ProtoPNet",
+        "description": "When we are faced with challenging image classification tasks, we often explain our reasoning by dissecting the image, and pointing out prototypical aspects of one class or another. ProtoPNet reasons in a similar way: the network dissects the image by finding prototypical parts, and combines evidence from the prototypes to make a final classification."
     }
 ]

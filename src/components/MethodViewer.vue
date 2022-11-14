@@ -5,7 +5,7 @@
     no-body
   >
     <b-card-img v-if="data.cover_image" :src="data.cover_image"></b-card-img>
-    <b-card-img v-else src='https://dummyimage.com/400x300/f4de4d&text=+'></b-card-img>
+    <b-card-img v-else src='./static/cover_images/gialloXAI.png'></b-card-img>
     <b-card-body>
       
       <b-card-title>{{data.name.short}}</b-card-title>
