@@ -100,7 +100,7 @@
       </b-row>
       <b-row>
         <b-col>
-          <b-card-group deck>
+          <b-card-group columns>
             <MethodViewer v-for="e in entries" :key="e.name.short" :data="e"></MethodViewer>
           </b-card-group>
         </b-col>
