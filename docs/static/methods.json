@@ -832,7 +832,7 @@
         "year": "2020",
         "title": "Score-cam: Score-weighted visual explanations for convolu- tional neural networks",
         "venue": "IEEE/CVF",
-        "cover_image": "",
+        "cover_image": "scorecam_image.png",
         "link_to_code": "https://github.com/haofanwang/Score-CAM",
         "description": "Unlike others class activation mapping based approaches, Score-CAM gets rid of the dependence on gradients by obtaining the weight of each activation map through its forward passing score on target class. The final result is obtained by a linear combination of weights and activation maps."
     },
@@ -870,7 +870,7 @@
         "year": "2018",
         "title": "Interpretable convolutional neural networks.",
         "venue": "CVPR",
-        "cover_image": "",
+        "cover_image": "retain_image.png",
         "link_to_code": "https://github.com/ada-shen/ICNN",
         "description": "Retain is a method to modify traditional convolutional neural networks (CNNs) into interpretable CNNs, in order to clarify knowledge representations in high convolutional layers of CNNs. In an interpretable CNN, each filter in a high conv-layer represents a certain object part. We do not need any annotations of object parts or textures to supervise the learning process. Instead, the interpretable CNN automatically assigns each filter in a high conv-layer with an object part during the learning process."
     },
