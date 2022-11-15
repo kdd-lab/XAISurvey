@@ -110,7 +110,7 @@
 
 <script>
 import crossfilter from 'crossfilter2';
-import MethodViewer from '@/components/methodViewer';
+import MethodViewer from './MethodViewer.vue';
 
 let cf; // crossfilter instance to handle the local data cube
 let dDataType;
